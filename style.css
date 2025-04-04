@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://i.pinimg.com/originals/79/11/27/7911273efbd03d2382e9bd00ed2b70cd.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .titulo h2 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  
+  .frase-impacto {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .conteudo, .fim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .pergunta {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+  }
+  
+  .respostas {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  
+  .botao-resposta {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+  /* Adiciona uma caixa translúcida para destacar o conteúdo */
+  .caixa-quiz {
+    background-color: rgba(0, 0, 0, 0.9); /* fundo escuro semi-transparente */
+    padding: 100px;
+    border-radius: 75px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Centraliza o conteúdo com mais harmonia */
+  .conteudo, .fim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  /* Garante que perguntas e respostas estejam dentro da caixa */
+  .pergunta, .respostas, .progresso {
+    width: 100%;
+  }
+  
+  .botao-resposta:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .progresso {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .musica-fundo {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    z-index: 999;
+    box-shadow: 0 0 10px #ff9933;
+    border-radius: 12px;
+  }
+  
+  .correta {
+    background-color: #28a745 !important; /* Verde */
+    color: white;
+    border: 2px solid #218838;
+  }
+  
+  .errada {
+    background-color: #dc3545 !important; /* Vermelho */
+    color: white;
+    border: 2px solid #c82333;
+  }
+  
+  
+  .fim span {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .fim button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #ff9800;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .fim button:hover {
+    background: #e68900;
+  }
+  
+  .lista-erro, .lista-acerto {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .lista-erro li, .lista-acerto li {
+    margin-bottom: 10px;
+  }
+  
